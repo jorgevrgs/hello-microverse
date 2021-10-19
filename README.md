@@ -32,7 +32,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-Clone or download the files from the GitHub repository.
+Clone from the GitHub repository. Open your Terminal and run the command:
+
+```
+git clone git@github.com:jorgevrgs/hello-microverse.git
+```
+
+When the process is completed enter to the folder:
+
+```
+cd hello-microverse
+```
+
+As an alternative, to download the code, open the repository link [here](https://github.com/jorgevrgs/hello-microverse), and look for the green button `Code` and then click on the option `Download ZIP`.
 
 ### Install
 
