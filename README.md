@@ -2,40 +2,69 @@
 
 # Hello Microverse
 
-> One paragraph statement about the project.
+> Master tools and best practices for GitHub flow.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Include linters for CSS (Stylelint) and HTML (Hint).
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Stylelint
+- Hint
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jorgevrgs.github.io/hello-microverse/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
+
+- Clone or download the repository
+- Open the index.html in your browser
 
 ### Prerequisites
 
+- [Node.js](https://nodejs.org/en/download/)
+
 ### Setup
+
+Clone or download the files from the GitHub repository.
 
 ### Install
 
+```
+npm install
+```
+
 ### Usage
+
+Check the code quality with the CSS and HTML linters.
+
+```
+npm run lint:css
+npm run lint:css:fix
+npm run lint:html
+```
 
 ### Run tests
 
+```
+npm test
+```
+
 ### Deployment
+
+GitHub Pages:
+
+1. Open your repository page settings, i.e. `https://github.com/<USERNAME>/<REPOSITORY_NAME>/settings/pages` where USERNAME is your GitHub user, for instance `jorgevrgs`, and REPOSITORY_NAME is the name of the GitHub repository, for example `hello-microverse`.
+
+1. Find the `Source` section and select the Branch, default is `main` and click on `Save` button.
+
+1. As a result your page will be published at `https://<USERNAME>.github.io/<REPOSITORY_NAME>`.
 
 ## Authors
 
@@ -54,12 +83,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

@@ -4,7 +4,10 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint:css && npm run lint:html && echo '\u001b[36m' && echo '✅ All test approved!' && echo '\u001b[0m'",
+    "lint:css": "npx stylelint '**/*.{css,scss}'",
+    "lint:css:fix": "npm run lint:css -- --fix",
+    "lint:html": "npx hint ."
   },
   "keywords": [],
   "author": "",
@@ -15,5 +18,8 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "engines": {
+    "node": "*"
   }
 }
